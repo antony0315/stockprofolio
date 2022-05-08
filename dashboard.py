@@ -1,5 +1,6 @@
 import streamlit as st
 from datetime import date
+import requests
 #import yfinance as yf
 import pandas_datareader.data as web
 import pandas as pd
