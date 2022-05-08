@@ -9,8 +9,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from functools import reduce
 import scipy.optimize as solver
-
-url='https://raw.githubusercontent.com/antony0315/stockprofolio/main/TW100.csv?token=GHSAT0AAAAAABUK4YUE634NGOMPMFMLG332YTXZV5A'
+import io
+url="https://raw.githubusercontent.com/antony0315/stockprofolio/main/TW100.csv?token=GHSAT0AAAAAABUK4YUE634NGOMPMFMLG332YTXZV5A"
 download = requests.get(url).content
 tw100=pd.read_csv(io.StringIO(download.decode('utf-8')),header=None)
 
