@@ -1,5 +1,5 @@
-$pip install pandas_datareader
-$pip install seaborn
+
+pip install seaborn
 
 import streamlit as st
 from datetime import date
