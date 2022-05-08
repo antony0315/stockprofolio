@@ -1,19 +1,15 @@
 import streamlit as st
 from datetime import date
-import requests
-#import yfinance as yf
 import pandas_datareader.data as web
 import pandas as pd
 import numpy as np
-#from plotly import graph_objs as go
 import seaborn as sns
 import matplotlib.pyplot as plt
 from functools import reduce
 import scipy.optimize as solver
-import io
-url="https://raw.githubusercontent.com/antony0315/stockprofolio/main/TW100.csv?token=GHSAT0AAAAAABUK4YUE634NGOMPMFMLG332YTXZV5A"
-download = requests.get(url).content
-tw100=pd.read_csv(io.StringIO(download.decode('utf-8')),header=None)
+
+
+tw100=pd.read_csv("https://raw.githubusercontent.com/antony0315/stockprofolio/main/TW100.csv?token=GHSAT0AAAAAABUK4YUE634NGOMPMFMLG332YTXZV5A",header=None)
 
 st.title("效率前緣資產組合配置")
 st.markdown("作者:Antony JHU")
