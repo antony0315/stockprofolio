@@ -1,3 +1,8 @@
 seaborn
+pandas
+numpy
+datetime
 pandas_datareader
 matplotlib
+functools
+scipy
