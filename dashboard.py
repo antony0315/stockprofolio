@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 from functools import reduce
 import scipy.optimize as solver
 
-url='https://raw.githubusercontent.com/antony0315/stockprofolio/main/TW100.csv?token=GHSAT0AAAAAABUK4YUFJ3463E7S5JYJGO2YYTX2CXQ'
-tw100=pd.read_csv(url,header=None)
+
+tw100=pd.read_csv('https://raw.githubusercontent.com/antony0315/stockprofolio/main/TW100.csv?token=GHSAT0AAAAAABUK4YUEHLL72VU66LNJWJAGYTX2I7A',header=None)
 
 st.title("效率前緣資產組合配置")
 st.markdown("作者:Antony JHU")
