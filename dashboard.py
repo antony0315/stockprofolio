@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import date
 #import yfinance as yf
-#import pandas_datareader.data as web
+import pandas_datareader.data as web
 import pandas as pd
 import numpy as np
 #from plotly import graph_objs as go
