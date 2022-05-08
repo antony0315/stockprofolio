@@ -9,7 +9,7 @@ from functools import reduce
 import scipy.optimize as solver
 
 
-tw100=pd.read_csv("https://raw.githubusercontent.com/antony0315/stockprofolio/main/TW100.csv?token=GHSAT0AAAAAABUK4YUE634NGOMPMFMLG332YTXZV5A",header=None)
+tw100=pd.read_csv('https://raw.githubusercontent.com/antony0315/stockprofolio/main/TW100.csv?token=GHSAT0AAAAAABUK4YUE634NGOMPMFMLG332YTXZV5A',header=None)
 
 st.title("效率前緣資產組合配置")
 st.markdown("作者:Antony JHU")
